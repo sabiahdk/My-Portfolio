@@ -61,7 +61,7 @@ const Project = () => {
                      <a className="py-3 px-3  mt-2border rounded-2xl m-16 hover:text-cyan-900  bg-cyan-950 text-amber-50" href="https://github.com/sabiahdk ">GITHUB PROJECTS</a>
           {cardArray.map((items) => (
             <a className="hover:text-cyan-900 " href={items.link}>
-              <div className="  p-6 m-3 border w-3xs font  ">
+              <div className="  p-6 m-3 border bg-cyan-950 rounded-2xl text-cyan-200  hover:text-amber-50 w-3xs font  ">
                 <h1 className="font-semibold  "> {items.title}</h1>
                 <p>{items.subtitle}</p>
               </div>
