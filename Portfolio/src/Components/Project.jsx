@@ -51,14 +51,14 @@ const Project = () => {
               anlytical tools{" "}
             </p>
             <a
-              className="py-2 px-2 border rounded-2xl mt-2 hover:text-cyan-900 "
+              className=" m-5 mt-5py-2 px-2 border rounded-2xl mt-2 hover:text-cyan-900 bg-cyan-950 text-amber-50 "
               href="https://drive.google.com/drive/folders/1OylCDfT2RId97_HehpoJ7qcnn2Kvt5b3"
             >
               {" "}
-              Data{" "}
+              DATA PROJECTS{" "} 
             </a>
           </div>
- 
+                     <a className="py-3 px-3  mt-2border rounded-2xl m-16 hover:text-cyan-900  bg-cyan-950 text-amber-50" href="https://github.com/sabiahdk ">GITHUB PROJECTS</a>
           {cardArray.map((items) => (
             <a className="hover:text-cyan-900 " href={items.link}>
               <div className="  p-6 m-3 border w-3xs font  ">
