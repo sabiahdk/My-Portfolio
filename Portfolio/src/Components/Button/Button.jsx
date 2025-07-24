@@ -4,7 +4,7 @@ import { MdContactMail } from "react-icons/md";
 const Button = () => {
   return (
     <div className="fixed z-[100] top-0 bg-emerald-50 w-[100%] max-md:FaBars">
-      <div className="border h-30 flex justify-center items-center gap-12 font-semibold   ">
+      {/* <div className="border h-30 flex justify-center items-center gap-12 font-semibold   ">
         <div className="py-7 cursor-pointer px-6 bg-cyan-900 border rounded-full text-cyan-50 hover:bg-white hover:text-black">
           <button className=""> MY CV</button>
         </div>
@@ -22,7 +22,7 @@ const Button = () => {
           {" "}
           <FaBars className="min-md:hidden max" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

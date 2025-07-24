@@ -15,16 +15,16 @@ const App = () => {
     <div className="flex justify-between items-start">
       <div className="w-[20%]">
         <Header />
-      </div>tt
+      </div>
       <div className="w-[79%]">
-        <div>
+        <div >
           <Button changeToggle={changeToggle} />
         </div>
-        <section className="h-[80%]">
+        <section id="hero" className="h-[80%]">
           <Hero />
         </section> 
-        <section>
-          <Skills/ >
+        <section id="Skills">
+          <Skills />
 
         </section>
 
