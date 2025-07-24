@@ -2,16 +2,16 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="  p-10  h-[100vh] flex justify-around  max-md:flex-col">
+    <div className=" m-14  p-20 px-6 h-[100vh] flex justify-around  max-md:flex-col  ">
       <div className=" w-[50%] max-md:w-[70%] m-3.5">
         <h1
           className=" font-extrabold h-20  text-2xl " >  ABOUT ME
         </h1>
         <div>
-          <h1 className="font-extrabold text-2xl max-md:w-3xs ">
+          <h1 className="font-extrabold text-2xl max-md:w-3xs font-medium ">
             I am Sabiah Muhammad Dankano
           </h1>
-          <h2>
+          <h2 className="max-md:w-[290px]">
             An aspiring Full-Stack Developer and Data Analyst/Scientist
             passionate about building functional, responsive user interfaces and
             uncovering insights through data to uncover insights that drive
@@ -25,10 +25,10 @@ const Hero = () => {
         </div>
       </div>
 
-      <div>
+      <div >
         <div>
           <img
-            className="h-60 w-56 rounded-4xl m-6" src="/image/myimage.jpg " alt=""
+            className="h-60 w-56 rounded-4xl m-6 max-md:m-3" src="/image/myimage.jpg " alt=""
           />
         </div>
       </div>

@@ -24,7 +24,7 @@ const App = () => {
           <Hero />
         </section> 
         <section>
-          <Skills/>
+          <Skills/ >
 
         </section>
 
