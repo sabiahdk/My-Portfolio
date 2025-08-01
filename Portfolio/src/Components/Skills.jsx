@@ -7,7 +7,7 @@ const Skills = () => {
         <div>
           <h1 className="font-bold  text-2xl py-4 px-4 ">SKILLS</h1>
 
-          <div className="border rounded-full py-5 px-7 max-md:flex-col w-[400px] ">
+          <div className=" py-5 px-7 max-md:flex-col w-[400px] ">
             <div  className="flex">
               <div >
                 <h1 className="font-bold">FRONTEND</h1>
@@ -27,7 +27,7 @@ const Skills = () => {
           </div>
         </div>
         <div >
-          <div className="border  rounded-full py-10 px-10 m-6 max-md:w-[300px]  ">
+          <div className="border   py-10 px-10 m-6 max-md:w-[300px]  ">
             <h1 className="font-bold ">Data Analysis & Data Science</h1>
             <li>Microsoft Excel (data cleaning, pivot tables, charts)</li>
             <li>Python for Data (Pandas, NumPy, Matplotlib)</li>
@@ -39,7 +39,7 @@ const Skills = () => {
       <div className="m-3 bg-cyan-50 border max-md: w-72  ">
 
         <h1 className="font-bold text-2xl">EDUCATION</h1>
-      <div className="w-60 border rounded-full py-9 px-8 m-3">
+      <div className="w-60  py-9 px-8 m-3">
              <h1 className="font-bold" >
               Primary and Secondary
              </h1>
@@ -51,7 +51,7 @@ const Skills = () => {
 
 
 
-        <div className="w-60 border rounded-full py-9 px-8 m-3 ">
+        <div className="w-60 border py-9 px-8 m-3 ">
             <h1 className="font-bold">Tertiary </h1>
           <h1>Yusuf maitama sule university kano</h1>
            <p>Bsc.Biochemistry</p>

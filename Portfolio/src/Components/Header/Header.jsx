@@ -12,7 +12,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 const Header = () => {
   return (
-    <div className="  h-[100vh] fixed z-[100] top-0 left-0 flex justify-center items-center w-[250px]">
+    <div className="  h-[90vh] fixed z-[100] top-0 left-0 flex justify-center items-center w-[250px]">
       <div className="w-[80%]  border  bg-cyan-50 rounded-[20px] py-7  max-md:hidden ">
         <nav className="flex flex-col items-center gap-y-[30px] w-[100%]">
           <a href="#Home " className="flex items-center">
