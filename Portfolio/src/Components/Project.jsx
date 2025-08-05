@@ -38,7 +38,7 @@ const Project = () => {
   return (
     <div className="flex max-md: flex-wrap  ">
       <div>
-        <div className="w-[100%] h-[100%] bg-cyan-50 border  ">
+        <div className="w-[100%] shadow h-[100%] text-white bg-[#2B3140] border  ">
           <div className="m-4  w-[300px]">
             {" "}
             <h1 className="font-bold text-2xl">MY PROJECTS</h1>
@@ -51,7 +51,7 @@ const Project = () => {
               anlytical tools{" "}
             </p>
             <a
-              className=" m-5 mt-5py-2 px-2 border rounded-2xl mt-2 hover:text-cyan-900 bg-cyan-950 text-amber-50 "
+              className=" m-5 mt-5py-2 px-2 border rounded-2xl mt-2 text-gray-700 bg-[#E8E8E8] hover:bg-gray-400 "
               href="https://drive.google.com/drive/folders/1OylCDfT2RId97_HehpoJ7qcnn2Kvt5b3"
             >
               {" "}
@@ -61,15 +61,15 @@ const Project = () => {
                      <a className="py-3 px-3  mt-2border rounded-2xl m-16 hover:text-cyan-900  bg-cyan-950 text-amber-50" href="https://github.com/sabiahdk ">GITHUB PROJECTS</a>
           {cardArray.map((items) => (
             <a className="hover:text-cyan-900 " href={items.link}>
-              <div className="  p-6 m-3 border bg-cyan-950 rounded-2xl text-cyan-200  hover:text-amber-50 w-3xs font  ">
-                <h1 className="font-semibold  "> {items.title}</h1>
+              <div className="  p-6 m-3 border hover:caret-gray-200 text-gray-900 bg-[#E8E8E8]  font-bold rounded-2xl  hover:text-amber-50 w-3xs font  ">
+                <h1 className="font-bold  "> {items.title}</h1>
                 <p>{items.subtitle}</p>
               </div>
             </a>
           ))}
         </div>
       </div>
-      <div className=" w-[300px]  border  m-1 bg-cyan-50 py-3 px-3  ">
+      <div className=" w-[300px]  border text-white m-1 bg-[#2B3140] py-3 px-3  ">
         <h1 className="font-bold text-2xl ">SERVICES</h1>
         <div className=" py-2 px-2">
           <h2 className="font-bold"> Kano Drug Management unit (KDMU)</h2>
